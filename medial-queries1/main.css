@@ -16,6 +16,7 @@ body {
   min-height: 15vh;
   border: 1px solid black;
   margin: 1em;
+  background-color: green;
 }
 
 .b {
@@ -23,16 +24,18 @@ body {
   border: 1px solid black;
   margin: 1em;
   flex-grow: 4;
+  background-color: pink;
 }
 
 .c {
   min-height: 15vh;
   border: 1px solid black;
   margin: 1em;
+  background-color: orange;
 }
 
-/*@media (min-width: 600px) {
-  .container {
+@media (min-width: 600px) {
+  .b {
     flex-direction: row;
     flex-wrap: wrap;
   }
